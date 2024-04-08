@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+In this project, let's fix the Fruits Counter by applying the concepts we have learned till now.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Refer to the image below:
 
-## Available Scripts
+![image](https://github.com/bukka5sandhya/React-Js-Debugging-Fruits-Counter-/assets/133884532/bed11197-f4c6-4eb9-be51-2700cce6de15)
 
-In the project directory, you can run:
+https://assets.ccbp.in/frontend/content/react-js/debugging-fruits-counter-output.gif
 
-### `npm start`
+Set Up Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click to view
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Download dependencies by running npm install
 
-### `npm test`
+Start up the app using npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Completion Instructions
 
-### `npm run build`
+Functionality to be fixed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Fix the given code to have the following functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Initially, the count of the eaten mangoes should be four and the count of the eaten bananas should be five
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When the Eat Mango button is clicked, then the count of the mangoes eaten should be incremented by one
 
-### `npm run eject`
+When the Eat Banana button is clicked, then the count of the bananas eaten should be incremented by one
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Quick Tips
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Click to view
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+There are 8 bugs to be fixed to achieve the functionality and the UI that is expected
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Resources
 
-## Learn More
+Image URLs
+https://assets.ccbp.in/frontend/react-js/mango-img.png alt should be mango
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://assets.ccbp.in/frontend/react-js/banana-img.png alt should be banana
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Things to Keep in Mind
 
-### Code Splitting
+All components you implement should go in the src/components directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Don't change the component folder names as those are the files being imported into the tests.
 
-### Analyzing the Bundle Size
+Do not remove the pre-filled code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
